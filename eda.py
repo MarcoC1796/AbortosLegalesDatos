@@ -1,5 +1,4 @@
 
-import matplotlib.pyplot as plt
 def eda_generator(df):
     null_values = df.isnull().sum()
     print(null_values)
